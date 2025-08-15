@@ -1,0 +1,6 @@
+# gitignore file
+# Michael Berghammer
+
+
+# private directories (also in subdirectories)
+**private/
