@@ -10,6 +10,8 @@ Scripts, documentation and configuration files for easy linux usage and maintena
 
 Scripts and other executables for linux setup and maintenance.
 
+See [documentation](./doc/scripts.md) for detailed information.
+
 ## doc
 
 Documentation, guides and links for linux usage.
