@@ -1,19 +1,19 @@
-# system-management
+# easy-linux
 
-Repository for simple linux system management.
+Scripts, documentation and configuration files for easy linux usage and maintenance.
 
 **Maintainer:** [Michael Berghammer](mailto:info@mbelab.de)
 
 > **Note:** Files in subdirectories named *private* are not tracked by Git.
 
-## docs
+## bin
 
-Documentation, guides and links for linux system management.
+Scripts and other executables for linux setup and maintenance.
 
-## dotfiles
+## doc
 
-Dotfiles for linux systems.
+Documentation, guides and links for linux usage.
 
-## scripts
+## etc
 
-Bash and Python scripts for system management.
+Configuration files (like dotfiles) for linux systems.
