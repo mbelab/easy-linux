@@ -29,6 +29,7 @@ then
     echo '- flatpak'
     echo '- office'
     echo '- media'
+    echo '- gaming'
     echo '- sw-dev'
     echo '- el-dev'
     echo '- web-dev'
@@ -74,6 +75,16 @@ if [ $collection = 'media' ]
 then
     echo 'Install collection: media'
     sudo apt-get install -y gwenview gimp juk audacity vlc kdenlive obs-studio
+    echo
+fi
+
+# install collection: gaming
+if [ $collection = 'gaming' ]
+then
+    echo 'Install collection: gaming'
+    sudo apt-get install -y 0ad supertux supertuxkart
+    echo
+    flatpak install -y com.valvesoftware.Steam net.lutris.Lutris
     echo
 fi
 
