@@ -1,0 +1,16 @@
+{
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+
+    "cSpell.enabledFileTypes": {
+        "*": false,
+        "markdown": true
+    },
+    "cSpell.words": [
+        "mbelab",
+        "berghammer"
+    ],
+
+    "terminal.integrated.enablePersistentSessions": false
+}
