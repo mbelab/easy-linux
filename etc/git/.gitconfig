@@ -1,0 +1,35 @@
+# Das ist Gits benutzerspezifische Konfigurationsdatei.
+
+[user]
+    name = ...
+    email = ...
+[core]
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	eol = lf
+	editor = nano
+	sshCommand = ssh -i ~/.ssh/id_rsa
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+	followTags = true
+[rebase]
+	autoStash = true
+[submodule]
+	recurse = true
+[protocol "file"]
+	allow = always
+[diff]
+	tool = code-diff
+[difftool "code-diff"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = code-merge
+[mergetool "code-merge"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[safe]
+	directory = *

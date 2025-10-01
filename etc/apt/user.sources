@@ -1,0 +1,19 @@
+# user vscode
+# see https://learn.microsoft.com/en-us/linux/packages for key import
+Types: deb
+URIs: https://packages.microsoft.com/repos/code/
+Suites: stable
+Components: main
+Enabled: no
+Architectures: amd64
+Signed-By: /etc/apt/keyrings/microsoft.gpg
+
+# user chrome
+# see https://www.google.com/linuxrepositories for key import
+Types: deb
+URIs: http://dl.google.com/linux/chrome/deb/
+Suites: stable
+Components: main
+Enabled: no
+Architectures: amd64
+Signed-By: /etc/apt/keyrings/google.gpg
