@@ -25,7 +25,7 @@ if [ -z $collection ]
 then
     echo 'No collection provided.'
     echo 'Call script with one of the following collections:'
-    echo '- base'
+    echo '- desktop'
     echo '- flatpak'
     echo '- office'
     echo '- media'
@@ -34,14 +34,16 @@ then
     echo '- web-dev'
     echo '- mech-dev'
     echo
+    echo 'Run script with collections desktop and flatpak at first to ensure proper setup.'
+    echo
 
     exit 0
 fi
 
-# install collection: base
-if [ $collection = 'base' ]
+# install collection: desktop
+if [ $collection = 'desktop' ]
 then
-    echo 'Install collection: base'
+    echo 'Install collection: desktop'
     sudo apt-get install -y plasma-firewall plasma-systemmonitor
     sudo apt-get install -y konsole dolphin ark partitionmanager filelight sweeper gparted
     echo
