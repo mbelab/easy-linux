@@ -31,7 +31,7 @@ sudo apt-get install -y curl wget gpg ssh sshpass cifs-utils samba smbclient wak
 echo
 
 echo 'Install maintenance and service packages...'
-sudo apt-get install -y nano mc htop fastfetch cockpit git sqlite3 sqlite-utils
+sudo apt-get install -y nano mc htop fastfetch cockpit timeshift git sqlite3 sqlite-utils
 echo
 
 # print user message for restart
