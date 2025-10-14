@@ -25,7 +25,7 @@ See script for collections and packages.
     $ ./bin/install_collection.sh office        # install office collection
     $ ./bin/install_collection.sh media         # install media collection
 
-> **Note:** Run **install_core** script before to ensure installed core packages.
+> **Note:** Run **install_core** script before, to ensure installed core packages.
 
 ## setup_firewall
 
@@ -33,17 +33,17 @@ Setup firewall with default settings (deny incoming, allow outgoing).
 
     $ ./bin/setup_firewall.sh
 
-> **Note:** Run **install_core** script before to ensure installed core packages.
+> **Note:** Run **install_core** script before, to ensure installed core packages.
 
 ## update_sys
 
-Update system packages, without or including flatpak applications.
+Update system, without or including flatpak applications.
 
     $ ./bin/update_sys.sh                       # update system including flatpak
     $ ./bin/update_sys.sh true                  # update system including flatpak
     $ ./bin/update_sys.sh false                 # update system without flatpak
 
-> **Note:** This script fully updates distribution (apt-get dist-upgrade).
+> **Note:** This script fully updates distribution (`apt-get dist-upgrade`).
 
 ## deploy_config
 
