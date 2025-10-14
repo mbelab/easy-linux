@@ -4,6 +4,10 @@ Scripts, documentation and configuration files for easy linux usage and maintena
 
 **Maintainer:** [Michael Berghammer](mailto:info@mbelab.de)
 
+- [bin](#bin)
+- [doc](#doc)
+- [etc](#etc)
+
 > **Note:** Files in subdirectories named *private* are not tracked by Git.
 
 ## bin
