@@ -3,6 +3,7 @@
 Overview and introduction.
 
 - [Overview](#overview)
+- [Open Source](#open-source)
 - [Linux](#linux)
 - [Debian](#debian)
 - [KDE](#kde)
@@ -13,6 +14,12 @@ Overview and introduction.
 
 See [tools](./tools.md) for information about (Linux) tools.
 See [services](./services.md) for information about (Linux) services.
+
+## Open Source
+
+...
+
+- [GNU Project](https://en.wikipedia.org/wiki/GNU_Project)
 
 ## Linux
 
