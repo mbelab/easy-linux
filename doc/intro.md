@@ -12,9 +12,6 @@ Overview and introduction.
 
 ...
 
-See [tools](./tools.md) for information about (Linux) tools.
-See [services](./services.md) for information about (Linux) services.
-
 ## Open Source
 
 ...
