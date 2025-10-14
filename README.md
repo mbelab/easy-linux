@@ -21,7 +21,7 @@ See [scripts](./doc/scripts.md) for detailed information.
 Documentation, guides and links for linux usage.
 
 See [intro](./doc/intro.md) for overview and introduction.
-See [links](./doc/links.md) for further information.
+See [links](./doc/links.md) for collection of links.
 
 ## etc
 
