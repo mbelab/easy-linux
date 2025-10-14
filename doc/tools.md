@@ -3,11 +3,35 @@
 Tools for linux.
 
 - [Git](#git)
+- [VS Code](#vs-code)
+- [Bash](#bash)
+- [Python](#python)
 - [Online-Tools](#online-tools)
 
 ## Git
 
 See [git](./git.md) for documentation.
+
+## VS Code
+
+VS Code (Visual Studio Code) is an editor developed by Microsoft for Windows, Linux, macOS and web browsers.
+The number and quality of extensions makes it a highly-customizable viewer, editor and IDE for all purposes.
+
+See [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code) for more information.
+
+## Bash
+
+Bash is an interactive command interpreter and scripting language for (typically) Unix-like systems.
+It is commonly used as login shell to numerous Linux distributions and a powerful tool for automation of tasks.
+
+See [Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) for more information.
+
+## Python
+
+Python is a high-level programming and scripting language with an extensive standard library and much more (mostly) community-driven libraries.
+This makes it a feature-rich programming language usable for applications, web services and scripting.
+
+See [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language)) for more information.
 
 ## Online-Tools
 
